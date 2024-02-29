@@ -1,0 +1,383 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Nunito&display=swap" rel="stylesheet">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <title>Job Portal Website</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <h2 class="navbar-logo"><a href="#">FIND JOBS</a></h2>
+        <div class="navbar-menu">
+            <a href="#jobs">Jobs</a>
+            <a href="#companies">Companies</a>
+            <a href="#testimoni">Testimonial</a>
+            <a href="#blog">Blogs</a>
+            <a href="login Form\index1.html">Sign In</a>
+        </div>
+        <div class="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    <!-- header -->
+    <header>
+        <h1 class="header-title">
+            FIND YOUR <br> <span>PERFECT JOB</span> <br> EASILY
+        </h1>
+    </header>
+
+    <!-- search -->
+    <div class="search-wrapper">
+        <div class="search-box">
+            <div class="search-card">
+                <input class="search-input" type="text" placeholder="Job title or keywords">
+                <button class="search-button">Search</button>
+            </div>
+        </div>
+    </div>
+    <!-- filter box -->
+    <div class="filter-box">
+        <div class="filter-dropdown">
+            <select class="filter-select" id="job-level" name="job-level">
+                <option>Job Level</option>
+                <option>Entry</option>
+                <option>Mid-Senior</option>
+                <option>Director</option>
+            </select>
+            <select class="filter-select" id="job-function" name="job-function">
+                <option>Job FunCV ction</option>
+                <option>IT</option>
+                <option>Management</option>
+                <option>Education</option>
+            </select>
+            <select class="filter-select" id="employment" name="employment">
+                <option>Employement Type</option>
+                <option>Internship</option>
+                <option>Part Time</option>
+                <option>Full Time</option>
+            </select>
+            <select class="filter-select" id="location" name="location">
+                <option>Locations</option>
+                <option>Remote</option>
+                <option>US</option>
+                <option>UK</option>
+            </select>
+            <select class="filter-select" id="education" name="education">
+                <option>Education</option>
+                <option>High School</option>
+                <option>Bachelor's degree</option>
+                <option>Master's degree</option>
+            </select>
+        </div>
+        <div class="filter-chosen">
+            <div class="chosen-card">
+                Remote <i class="fas fa-times-circle"></i>
+            </div>
+            <div class="chosen-card">
+                Full time <i class="fas fa-times-circle"></i>
+            </div>
+            <div class="chosen-card">
+                Financial Tech <i class="fas fa-times-circle"></i>
+            </div>
+            <div class="chosen-card">
+                Entry Level <i class="fas fa-times-circle"></i>
+            </div>
+        </div>
+    </div>
+    <!-- job listing -->
+    <section class="job-list" id="jobs">
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="images/tesla.svg">
+                <div class="job-detail">
+                    <h4>Tesla</h4>
+                    <h3><a href="https://www.tesla.com/" >Mechanical Engineer</a></h3>
+                                    </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">CSS</a>
+                <a class="label-c" href="#">Javascript</a>
+            </div>
+            <div class="job-posted">
+                Posted 2 mins ago
+            </div>
+        </div>
+
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="images/ebay.svg">
+                <div class="job-detail">
+                    <h4>Ebay</h4>
+                    <h3><a href="https://www.ebay.com/">Business Development</a></h3>
+                                    </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">CSS</a>
+                <a class="label-c" href="#">Javascript</a>
+            </div>
+            <div class="job-posted">
+                Posted 2 mins ago
+            </div>
+        </div>
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="images/tiktok.svg">
+                <div class="job-detail">
+                    <h4>Tiktok</h4>
+                    <h3><a href="https://www.tiktok.com/about">Digital Marketing</a></h3>
+                                    </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">CSS</a>
+                <a class="label-c" href="#">Javascript</a>
+            </div>
+            <div class="job-posted">
+                Posted 2 mins ago
+            </div>
+        </div>
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="images/youtube.svg">
+                <div class="job-detail">
+                    <h4>Youtube</h4>
+                    <h3><a href="https://www.youtube.com/watch?v=I0-vBdh4sZ8">UI UX Designer</a></h3>
+                    
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">CSS</a>
+                <a class="label-c" href="#">Javascript</a>
+            </div>
+            <div class="job-posted">
+                Posted an hour ago
+            </div>
+        </div>
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="images/amazon.svg">
+                <div class="job-detail">
+                    <h4>Amazon</h4>
+                    <h3><a href="https://www.amazon.jobs/en/job_categories/software-development">Software Engineer</a></h3>
+                    
+                </div>
+            </div>
+            <div class="job-label">
+                <a class="label-a" href="#">HTML</a>
+                <a class="label-b" href="#">CSS</a>
+                <a class="label-c" href="#">Javascript</a>
+            </div>
+            <div class="job-posted">
+                Posted an hour ago
+            </div>
+        </div>
+        <button class="job-more"><a href ="https://shorturl.at/hzGIP">More List</button>
+		
+    </section>
+
+    <!-- join -->
+    <section class="join">
+        <div class="join-detail">
+            <h1 class="section-title">LETS START YOUR NEW JOB WITH US</h1>
+            
+        </div>
+        <a href="join now.html"></a>
+        <button class="join-button">Join Now</button>
+    </section>
+
+    <!-- featured company -->
+    <section class="featured" id="companies">
+        <h1 class="section-title">Featured Companies</h1>
+        
+        <div class="featured-wrapper">
+            <div class="featured-card">
+                <img class="featured-image" src="images/ebay.svg">
+                <p>Ebay</p>
+                <button class="featured-button">View 2 jobs</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="images/youtube.svg">
+                <p>Youtube</p>
+                <button class="featured-button">View 1 jobs</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="images/tiktok.svg">
+                <p>Tiktok</p>
+                <button class="featured-button">View 3 jobs</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="images/tesla.svg">
+                <p>Tesla</p>
+                <button class="featured-button">View 2 jobs</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="images/google.svg">
+                <p>Google</p>
+                <button class="featured-button">View 2 jobs</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="images/facebook.svg">
+                <p>Facebook</p>
+                <button class="featured-button">View 4 jobs</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="images/apple.svg">
+                <p>Apple</p>
+                <button class="featured-button">View 1 jobs</button>
+            </div>
+            <div class="featured-card">
+                <img class="featured-image" src="images/amazon.svg">
+                <p>Amazon</p>
+                <button class="featured-button">View 3 jobs</button>
+            </div>
+        </div>
+    </section>
+    <!-- testimony -->
+    <section class="testimony" id="testimony">
+        <h1 class="section-title">Testimonial</h1>
+        <p>Lets see what our clients say about us</p>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <i class="fas fa-quote-left"></i>
+                    
+                    <div class="testimony-pic">
+                        <img src="data:image/jpeg;base64,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">
+                        <p>Vanya S.</p>
+                        <span>Business Development</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <i class="fas fa-quote-left"></i>
+                    
+                    <div class="testimony-pic-pic">
+                        <img src="https://static.wixstatic.com/media/203431_62cfa3ffa75f48bcb0465b10f8e5fdc1~mv2.png/v1/fit/w_240,h_240,q_90/203431_62cfa3ffa75f48bcb0465b10f8e5fdc1~mv2.png">
+                        <p>Michalea J.</p>
+                        <span>Data Analyst</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <i class="fas fa-quote-left"></i>
+                 
+                    <div class="testimony-pic">
+                        <img src="https://static.wixstatic.com/media/203431_9357bd6977b4448788e962e75fd89975~mv2.png/v1/fit/w_240,h_240,q_90/203431_9357bd6977b4448788e962e75fd89975~mv2.png">
+                        <p>Tara S.</p>
+                        <span>Product Analyst</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <i class="fas fa-quote-left"></i>
+                    
+                    <div class="testimony-pic-pic">
+                        <img src="https://static.wixstatic.com/media/203431_fe6799283bd844b89cce2a67dbb2c44e~mv2.png/v1/fit/w_240,h_240,q_90/203431_fe6799283bd844b89cce2a67dbb2c44e~mv2.png">
+                        <p>Mustafa S.</p>
+                        <span>Logistic Director</span>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <i class="fas fa-quote-left"></i>
+                    
+                    <div class="testimony-pic">
+                        <img src="https://static.wixstatic.com/media/203431_baccd5ecbfd14791aa035af1839e8534~mv2.png/v1/fill/w_560,h_560,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Testimonial%20-%20Individuals%20-%20Sahana.png">
+                        <p>Sahana M.</p>
+                        <span>Marketing Officer</span>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- blog -->
+    <section class="blog" id="blog">
+        <h1 class="section-title">Career Advices</h1>
+        <p>Learn more career tips from company's recruiter</p>
+        <div class="blog-wrapper">
+            <div class="blog-card">
+                <img class="blog-image" src="images/blog-1.jpeg">
+                <div class="blog-detail">
+                    <span>11 Apr 2022</span>
+                    <h4>How to enjoy your work</h4>
+                    
+                    <hr class="divider">
+                    <a href="https://www.glassdoor.com/blog/guide/how-to-enjoy-work/" class="blog-more">Read more</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img class="blog-image" src="images/blog-2.jpg">
+                <div class="blog-detail">
+                    <span>24 Apr 2022</span>
+                    <h4>30 Tips for technical interview</h4>
+                    
+                    <hr class="divider">
+                    <a href="https://www.coursera.org/articles/technical-interview-questions" class="blog-more">Read more</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img class="blog-image" src="images/blog-3.jpg">
+                <div class="blog-detail">
+                    <span>11 May 2022</span>
+                    <h4>Managing Time Effectively</h4>
+                    
+                    <hr class="divider">
+                    <a href="https://www.coursera.org/articles/time-management" class="blog-more">Read more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer>
+        <div class="footer-wrapper">
+            <h3>JOBACT</h3>
+            
+            <div class="social-media">
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/i/flow/login"><i class="fab fa-twitter"></i></a>
+                <a href="https://learning.linkedin.com/cx/get-started-55b?src=go-pa&trk=sem-ga_campid.17484163601_asid.140547133631_crid.603470531001_kw.linkedin%20learning_d.c_tid.kwd-310582843911_n.g_mt.e_geo.9001095&mcid=6977654453860491481&cid=&gclid=CjwKCAiA9ourBhAVEiwA3L5RFmlRLfVKmhuxBp5SjZe-DZ9u0-eqoLSo30bvVOryW1XRXWhIGj4LNhoChacQAvD_BwE&gclsrc=aw.ds&adobe_mc_sdid=SDID%3D0273E45248748925-79B42B275B73B66E%7CMCORGID%3D14215E3D5995C57C0A495C55%40AdobeOrg%7CTS%3D1701049794&adobe_mc_ref=https%3A%2F%2Fwww.google.com%2F"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="footer-wrapper">
+            <h4>Explore</h4>
+            <a href="https://www.capterra.com/sem-compare/it-asset-management-software/?utm_source=ps-google&utm_medium=ppc&utm_campaign=:1:CAP:2:COM:3:All:4:INTL:5:BAU:6:SOF:7:Desktop:8:BR:9:IT_Asset_Management&network=g&gclid=CjwKCAiA9ourBhAVEiwA3L5RFiPGkQU4TVB0bnGG7WKqJQlgOP_2yC1kyO2nWm8pmA8jOOg1BDwbzRoCZfMQAvD_BwE">Top Companies</a>
+            <a href="https://termify.io/terms-and-conditions-generator?msclkid=0155ef06194f1c558f948a65efc95757&utm_source=bing&utm_medium=cpc&utm_campaign=Termify&utm_term=terms%20of%20service%20template&utm_content=Terms%20of%20Service">Terms of Service</a>
+            <a href="https://podcasts.feedspot.com/ebay_podcasts/">Podcast</a>
+            <a href="https://jobs-bear.com/">Careers</a>
+        </div>
+        <div class="footer-wrapper">
+            <h4>About</h4>
+            <a href="https://www.siftforanswers.com/">FAQ</a>
+            <a href="https://jobs-ca.pwc.com/">Get Inspired</a>
+            <a href="https://careers.tiktok.com/blog">Blog</a>
+        </div>
+        <div class="footer-wrapper">
+            <h4>Support</h4>
+            <a href="https://www.freshworks.com/">Customer Service</a>
+            <a href="https://www.findinfoonline.com/">Trust & Safety</a>
+            <a href="https://uk.lookupsmart.com/">Partnership</a>
+        </div>
+        <div class="footer-wrapper">
+            <h4>Community</h4>
+            <a href="https://ca.ingosearch.com/">Community</a>
+            <a href="https://www.lookupsmart.com/">Invite a Friend</a>
+            <a href="https://www.questionsanswered.net/Event"></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
